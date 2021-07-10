@@ -1,0 +1,3 @@
+schedule function turtle_plate_helmet:item_merge 1
+
+schedule function turtle_plate_helmet:give_water_breathing 1

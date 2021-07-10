@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "head": {
+                    "nbt": "{isWaterBreathing: 1b}"
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:air"
+                ]
+            }
+        }
+    }
+]
